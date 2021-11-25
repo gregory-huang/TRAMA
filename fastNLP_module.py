@@ -11,7 +11,7 @@ import torch.nn as nn
 
 from fastNLP.core import logger
 from fastNLP.io.file_utils import _get_file_name_base_on_postfix
-from utils import MyDropout
+#from utils import MyDropout
 from fastNLP.embeddings.contextual_embedding import ContextualEmbedding
 from fastNLP.embeddings.bert_embedding import _BertWordModel
 from fastNLP.io.file_utils import PRETRAINED_BERT_MODEL_DIR
@@ -165,8 +165,8 @@ class StaticEmbedding(TokenEmbedding):
                                       sparse=False, _weight=embedding)
         self._embed_size = self.embedding.weight.size(1)
         self.requires_grad = requires_grad
-        self.dropout = MyDropout(dropout)
-
+        #self.dropout = MyDropout(dropout)
+        self.dropout = nn.Dropout(p=dropout)
     def _randomly_init_embed(self, num_embedding, embedding_dim, init_embed=None):
         """
 
