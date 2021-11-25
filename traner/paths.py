@@ -1,0 +1,21 @@
+yangjie_rich_pretrain_unigram_path = '../embedding/gigaword_chn.all.a2b.uni.ite50.vec'
+yangjie_rich_pretrain_bigram_path = '../embedding/gigaword_chn.all.a2b.bi.ite50.vec'
+yangjie_rich_pretrain_word_path = '../embedding/ctb.50d.vec'
+yangjie_rich_pretrain_char_and_word_path = '../embedding/word_and_char.txt'
+lk_word_path_2 = '../embedding/sgns.merge.word_2'
+ontonote4ner_cn_path = '../datasets/OntoNote4NER'
+msra_ner_cn_path = '../datasets/MSRA'
+resume_ner_path = '../datasets/ResumeNER'
+weibo_ner_path = '../datasets/Weibo'
+
+
+'''yangjie_rich_pretrain_unigram_path = '/home/hzy/ChineseNER/embedding/gigaword_chn.all.a2b.uni.ite50.vec'
+yangjie_rich_pretrain_bigram_path = '/home/hzy/ChineseNER//embedding/gigaword_chn.all.a2b.bi.ite50.vec'
+yangjie_rich_pretrain_word_path = '/home/hzy/ChineseNER//embedding/ctb.50d.vec'
+yangjie_rich_pretrain_char_and_word_path = '/home/hzy/ChineseNER//embedding/word_and_char.txt'
+lk_word_path_2 = '/home/hzy/ChineseNER//embedding/sgns.merge.word_2'
+ontonote4ner_cn_path = '/home/hzy/ChineseNER//datasets/OntoNote4NER'
+msra_ner_cn_path = '/home/hzy/ChineseNER//datasets/MSRA'
+resume_ner_path = '/home/hzy/ChineseNER//datasets/ResumeNER'
+weibo_ner_path = '/home/hzy/ChineseNER//datasets/Weibo'''''
+
